@@ -14,6 +14,7 @@ int main() {
     if (sockfd < 0) {
         perror("socket failed");
         exit(EXIT_FAILURE);
+        printf("hello\n");
     }
 
     // 2. Prepare the sockaddr_in6 structure
